@@ -10,7 +10,7 @@ public static void main(String[] args) {
 	
 
 	
-	System.out.println("Fech " + pd.readVenta("2021-05-04", "2021-05-10", 1).getFecha());
+	System.out.println("Fecha " + pd.readVenta("2021-05-04", "2021-05-10", 1).getFecha());
 	System.out.println("Nombre " + pd.readVenta("2021-05-04", "2021-05-10", 1).getNombre());
 	System.out.println("Dirección " + pd.readVenta("2021-05-04", "2021-05-10", 1).getDireccion());
 	System.out.println("Dni " + pd.readVenta("2021-05-04", "2021-05-10", 1).getDni());
